@@ -3,8 +3,8 @@ import type { Metadata, Viewport } from 'next'
 import './globals.css'
 
 export const metadata: Metadata = {
-  title: 'Alex Rivera — Full-Stack Developer',
-  description: 'A premium candidate workspace for Alex Rivera, a senior full-stack developer focused on useful, durable digital products.',
+  title: 'Afaq Ahmad — Full-Stack Developer',
+  description: 'A premium candidate workspace for Afaq Ahmad, a senior full-stack developer focused on useful, durable digital products.',
 }
 
 export const viewport: Viewport = {
