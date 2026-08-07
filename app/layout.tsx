@@ -5,7 +5,6 @@ import './globals.css'
 export const metadata: Metadata = {
   title: 'Alex Rivera — Full-Stack Developer',
   description: 'A premium candidate workspace for Alex Rivera, a senior full-stack developer focused on useful, durable digital products.',
-  generator: 'v0.app',
 }
 
 export const viewport: Viewport = {
