@@ -1,33 +1,43 @@
-# career-nexus
+# Career Nexus
 
-This is a [Next.js](https://nextjs.org) project bootstrapped with [v0](https://v0.app).
+Career Nexus is a premium candidate workspace designed for modern hiring workflows. It presents a polished Full-Stack Developer profile through a focused, responsive interface with mock data for:
 
-## Built with v0
+- Candidate overview and profile summary
+- Professional experience
+- Technical skills and proficiency
+- Selected projects
+- Resume preview and download actions
+- Contact and recruiter outreach
 
-This repository is linked to a [v0](https://v0.app) project. You can continue developing by visiting the link below -- start new chats to make changes, and v0 will push commits directly to this repo. Every merge to `main` will automatically deploy.
+## About
 
-[Continue working on v0 →](https://v0.app/chat/projects/prj_xzzmHQc5oAWnrsgPrdwhCdrgzpld)
+Created by **Afaq Ahmad**, Career Nexus combines a clean editorial layout with compact typography, refined icons, subtle borders, and responsive navigation for a premium candidate experience.
+
+## Tech Stack
+
+- Next.js
+- React
+- TypeScript
+- Tailwind CSS
+- Lucide icons
 
 ## Getting Started
 
-First, run the development server:
+Install dependencies and start the development server:
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
+pnpm install
 pnpm dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Project Structure
 
-## Learn More
+- `app/page.tsx` — application entry point
+- `components/candidate-workspace.tsx` — candidate workspace screens and interactions
+- `app/globals.css` — visual system and responsive styles
 
-To learn more, take a look at the following resources:
+## Current Status
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-- [v0 Documentation](https://v0.app/docs) - learn about v0 and how to use it.
+This version uses mock candidate data and local interactions. It is ready to be connected to a real profile database, authentication system, resume storage, and recruiter messaging workflow.
